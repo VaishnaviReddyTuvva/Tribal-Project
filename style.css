@@ -1,0 +1,158 @@
+<style>
+.mainhead th{padding:10px;}
+ h1{color:#990011FF;font-family: Foobar Pro;}h3{color:#2F3C7E;}
+h2{color:#317773;}
+.moretext {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  
+  border:1px solid black;
+}
+
+
+ li {font-size:18px; 
+  float: left;line-height: 1.6;
+}
+
+ li a, .dropbtn {
+  display: inline-block;
+  color:#FC766AFF ;font-family: Arial Black;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+ li a:hover, .dropdown:hover .dropbtn {
+  background-color: #FCE77D;
+}
+
+ li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #FBEAEB;}
+
+ .mainbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.search-container {
+  float: right;
+margin-top:10px;
+margin-right:50px;
+}
+
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+height:20px;
+}
+ .search-container button:hover {
+  background: #ccc;
+}
+
+
+.main {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-right:25%;
+  margin-left:20px;
+//margin-bottom:5px;
+ margin-top:20px;
+  background:#DCDCDC ; 
+ 
+}
+
+.main2 {
+ padding-top:5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-right:25%;
+  margin-left:20px;
+  margin-bottom:0;
+  //margin-top:20px;
+  background:#DCDCDC ; 
+ 
+}
+
+
+
+
+.sidenava {
+bottom:30px;
+width: 200px;
+height: 350px;
+border: 2px solid transparent;
+box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+transition: transform 0.5s;
+float:left;
+position: fixed;
+background-color:#FCE77D; 
+ 
+}
+.sidenava a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+
+  text-decoration: none;
+}
+
+.sidenava a:hover {
+  color: #064579;
+}
+#search-input{height:25px;}
+#search-btn{width:80px; height:30px;}
+.list{color:black;}
+
+.more {
+  display: none;
+}
+.show-more {
+  display: block;
+}
+.content a{margin:20px;padding:0px;}
+#education  {
+  list-style-type: bullet;
+ 
+}
+.education {
+
+  list-style-type: circle;
+  border:none;
+  overflow: hidden;
+  
+  
+}
+
+
+p{text-align: justify;}
+</style>

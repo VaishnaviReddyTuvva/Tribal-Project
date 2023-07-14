@@ -1,0 +1,67 @@
+#chatbox {
+	content: "hello";
+  width:300px;
+  height: 350px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin: 20px auto;
+position:fixed;
+right:5px;
+bottom:10px;
+ overflow-y: auto;
+
+}
+.radio{
+	padding:10px;
+}
+.radio::before {
+
+content: " \A Welcome to Tribal Welfare. How can I help you? ";
+ 
+}
+
+.chatlog{
+
+  padding: 10px;
+}
+
+.chatlog p {
+	
+  margin: 10px 0;
+}
+
+.chatlog .question {
+  text-align: left;
+  color: blue;
+}
+
+.chatlog .answer {
+ 
+  color: green;
+  text-indent: 50px;
+}
+
+.chatinput {
+  padding: 5px;
+  background-color: #ddd;
+  text-align: center;
+position:fixed;
+bottom:0px;
+width:290px;
+}
+
+#inputbox {
+  width: 60%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#sendbutton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
